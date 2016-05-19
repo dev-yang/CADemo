@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Macro.h"
 #import "BasicAnimationViewController.h"
+#import "MultiStageAnimationViewController.h"
 static NSString * const menuCellIdentifier = @"menuCell";
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, copy) NSArray *menuLists;
@@ -63,7 +64,11 @@ static NSString * const menuCellIdentifier = @"menuCell";
                 [self.navigationController pushViewController:bvc animated:YES];
             }
             break;
-            
+        case 1:
+            {
+                MultiStageAnimationViewController *mvc = [[MultiStageAnimationViewController alloc]init];
+                [self.navigationController pushViewController:mvc animated:YES];
+            }
         default:
             break;
     }
