@@ -10,6 +10,7 @@
 #import "Macro.h"
 #import "BasicAnimationViewController.h"
 #import "MultiStageAnimationViewController.h"
+#import "PathAnimationViewController.h"
 static NSString * const menuCellIdentifier = @"menuCell";
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, copy) NSArray *menuLists;
@@ -26,7 +27,7 @@ static NSString * const menuCellIdentifier = @"menuCell";
 }
 
 - (void)initData {
-    self.menuLists = @[@"BasicAnimation", @"Multi-StageAnimation"];
+    self.menuLists = @[@"BasicAnimation", @"Multi-StageAnimation", @"PathAnimation"];
 }
 
 - (void)setupViews {
@@ -69,6 +70,13 @@ static NSString * const menuCellIdentifier = @"menuCell";
                 MultiStageAnimationViewController *mvc = [[MultiStageAnimationViewController alloc]init];
                 [self.navigationController pushViewController:mvc animated:YES];
             }
+            break;
+        case 2:
+            {
+                PathAnimationViewController *pvc = [[PathAnimationViewController alloc]init];
+                [self.navigationController pushViewController:pvc animated:YES];
+            }
+            break;
         default:
             break;
     }

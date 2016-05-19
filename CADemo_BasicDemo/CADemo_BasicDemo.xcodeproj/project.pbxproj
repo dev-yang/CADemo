@@ -17,6 +17,7 @@
 		118969E31CEDBBF200038FB8 /* CADemo_BasicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969E21CEDBBF200038FB8 /* CADemo_BasicDemoUITests.m */; };
 		118969F61CEDC30D00038FB8 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969F51CEDC30D00038FB8 /* BasicAnimationViewController.m */; };
 		118969FC1CEDDCC000038FB8 /* MultiStageAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969FB1CEDDCC000038FB8 /* MultiStageAnimationViewController.m */; };
+		118969FF1CEDE64100038FB8 /* PathAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969FE1CEDE64100038FB8 /* PathAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		118969F51CEDC30D00038FB8 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
 		118969FA1CEDDCC000038FB8 /* MultiStageAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiStageAnimationViewController.h; sourceTree = "<group>"; };
 		118969FB1CEDDCC000038FB8 /* MultiStageAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiStageAnimationViewController.m; sourceTree = "<group>"; };
+		118969FD1CEDE64100038FB8 /* PathAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathAnimationViewController.h; sourceTree = "<group>"; };
+		118969FE1CEDE64100038FB8 /* PathAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				118969F51CEDC30D00038FB8 /* BasicAnimationViewController.m */,
 				118969FA1CEDDCC000038FB8 /* MultiStageAnimationViewController.h */,
 				118969FB1CEDDCC000038FB8 /* MultiStageAnimationViewController.m */,
+				118969FD1CEDE64100038FB8 /* PathAnimationViewController.h */,
+				118969FE1CEDE64100038FB8 /* PathAnimationViewController.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				118969C21CEDBBF200038FB8 /* AppDelegate.m in Sources */,
 				118969F61CEDC30D00038FB8 /* BasicAnimationViewController.m in Sources */,
 				118969BF1CEDBBF200038FB8 /* main.m in Sources */,
+				118969FF1CEDE64100038FB8 /* PathAnimationViewController.m in Sources */,
 				118969FC1CEDDCC000038FB8 /* MultiStageAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
