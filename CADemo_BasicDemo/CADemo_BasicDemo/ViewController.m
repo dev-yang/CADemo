@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "utility/Macro.h"
+#import "Macro.h"
+#import "BasicAnimationViewController.h"
 static NSString * const menuCellIdentifier = @"menuCell";
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, copy) NSArray *menuLists;
@@ -57,6 +58,10 @@ static NSString * const menuCellIdentifier = @"menuCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0:
+            {
+                BasicAnimationViewController *bvc = [[BasicAnimationViewController alloc] init];
+                [self.navigationController pushViewController:bvc animated:YES];
+            }
             break;
             
         default:

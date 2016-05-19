@@ -15,6 +15,7 @@
 		118969CD1CEDBBF200038FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118969CB1CEDBBF200038FB8 /* LaunchScreen.storyboard */; };
 		118969D81CEDBBF200038FB8 /* CADemo_BasicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969D71CEDBBF200038FB8 /* CADemo_BasicDemoTests.m */; };
 		118969E31CEDBBF200038FB8 /* CADemo_BasicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969E21CEDBBF200038FB8 /* CADemo_BasicDemoUITests.m */; };
+		118969F61CEDC30D00038FB8 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 118969F51CEDC30D00038FB8 /* BasicAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		118969E21CEDBBF200038FB8 /* CADemo_BasicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADemo_BasicDemoUITests.m; sourceTree = "<group>"; };
 		118969E41CEDBBF200038FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118969F21CEDBEB600038FB8 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		118969F41CEDC30D00038FB8 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		118969F51CEDC30D00038FB8 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 		118969F31CEDC18300038FB8 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				118969F41CEDC30D00038FB8 /* BasicAnimationViewController.h */,
+				118969F51CEDC30D00038FB8 /* BasicAnimationViewController.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			files = (
 				118969C51CEDBBF200038FB8 /* ViewController.m in Sources */,
 				118969C21CEDBBF200038FB8 /* AppDelegate.m in Sources */,
+				118969F61CEDC30D00038FB8 /* BasicAnimationViewController.m in Sources */,
 				118969BF1CEDBBF200038FB8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
