@@ -51,6 +51,7 @@
 		118969DE1CEDBBF200038FB8 /* CADemo_BasicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADemo_BasicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		118969E21CEDBBF200038FB8 /* CADemo_BasicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADemo_BasicDemoUITests.m; sourceTree = "<group>"; };
 		118969E41CEDBBF200038FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118969F21CEDBEB600038FB8 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,8 @@
 		118969BC1CEDBBF200038FB8 /* CADemo_BasicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				118969F31CEDC18300038FB8 /* Animation */,
+				118969F01CEDBDE400038FB8 /* utility */,
 				118969C01CEDBBF200038FB8 /* AppDelegate.h */,
 				118969C11CEDBBF200038FB8 /* AppDelegate.m */,
 				118969C31CEDBBF200038FB8 /* ViewController.h */,
@@ -138,6 +141,21 @@
 				118969E41CEDBBF200038FB8 /* Info.plist */,
 			);
 			path = CADemo_BasicDemoUITests;
+			sourceTree = "<group>";
+		};
+		118969F01CEDBDE400038FB8 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				118969F21CEDBEB600038FB8 /* Macro.h */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		118969F31CEDC18300038FB8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +516,7 @@
 				118969E91CEDBBF200038FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		118969EA1CEDBBF200038FB8 /* Build configuration list for PBXNativeTarget "CADemo_BasicDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				118969EC1CEDBBF200038FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		118969ED1CEDBBF200038FB8 /* Build configuration list for PBXNativeTarget "CADemo_BasicDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				118969EF1CEDBBF200038FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
